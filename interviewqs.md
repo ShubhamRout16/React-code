@@ -12,3 +12,15 @@ main features of fiber :-
 -> assigning priority to different type of work
 -> reuse previously completed work
 -> abort work if its no longer needed
+
+# what is useCallback() hook in react ?
+it allows react to store the function in the memory between re-rendering
+useCallback(fn,dependencies) -> dependencies or useState variables in array format
+yeh function ko memorize kr leta ha jitna ho sake
+
+# what is the role of useEffect() in react ?
+it runs when the page first reloads and  also runs whenever any changes are made to any of its dependencies
+
+# what is useRef() hook in react?
+whenever something's reference is required useRef() hook is used
+it is used as variable
